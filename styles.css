@@ -1,0 +1,38 @@
+.demo-card-square.mdl-card {
+  width: 35%;
+  height: 25%;
+}
+.mdl-card__title {
+  height: 200px;
+  color: white;
+  background: rgb(200,100,90);
+}
+
+.mdl-layout__header{
+  background: purple;
+}
+
+.mdl-layout__header-row{
+  padding: 0 2%;
+}
+
+.index-cards-grid{
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.index-card{
+  display: inline-block;
+  margin: 1% 5%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  box-shadow: 2px grey;
+}
