@@ -2,14 +2,15 @@
   width: 35%;
   height: 25%;
 }
+
 .mdl-card__title {
   height: 200px;
   color: white;
-  background: rgb(200,100,90);
+  background: rgb(97, 54, 132);
 }
 
 .mdl-layout__header{
-  background: purple;
+  background: rgb(97, 54, 132);
 }
 
 .mdl-layout__header-row{
@@ -25,7 +26,8 @@
 
 .index-card{
   display: inline-block;
-  margin: 1% 5%;
+  margin: 2% 5%;
+  margin-bottom: 30px;
 }
 
 a{
@@ -35,4 +37,28 @@ a{
 
 a:hover{
   box-shadow: 2px grey;
+}
+
+
+
+
+/* STYLES FOR CANDIDATE.HTML */
+
+
+.candidate-card{
+  margin: 0 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.filters{
+  margin: 10px 20px 50px 20px;
+}
+
+.democrat .mdl-card__title {
+  background: rgb(100,100,200);
+}
+
+.republican .mdl-card__title {
+  background: rgb(200,100,100);
 }

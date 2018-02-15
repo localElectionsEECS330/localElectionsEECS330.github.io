@@ -7,10 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
 
     <title>LocalVotes</title>
   </head>
@@ -35,14 +34,83 @@
       <main class="mdl-layout__content">
         <div class="page-content">
 
+          <!-- Start page content -->
+
+            <div class="filters">
+
+              <div class="ui-group">
+                <h3>Party</h3>
+                <div class="button-group js-radio-button-group" data-filter-group="color">
+                  <button class="button mdl-button mdl-js-button mdl-button--raised mdl-button--colored" data-filter="">All Parties</button>
+                  <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter=".republican">Republican</button>
+                  <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter=".democrat">Democrat</button>
+                </div>
+              </div>
+
+              <div class="ui-group">
+                <h3>Issue</h3>
+                <div class="button-group js-radio-button-group" data-filter-group="size">
+                  <button class="button mdl-button mdl-js-button mdl-button--raised mdl-button--colored" data-filter="">All Issues</button>
+                  <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter=".small">Pro-Environment</button>
+                  <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter=".wide">Pro-Gun</button>
+                  <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter=".big">Pro-Choice</button>
+                  <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter=".tall">Pro-Tax</button>
+                </div>
+              </div>
+
+            </div> <!-- ends filter -->
+
+            <div class="candidate-grid">
+
+                <div class="candidate-card republican mdl-card mdl-shadow--2dp">
+                    <a href="#">
+                    <div class="mdl-card__title mdl-card--expand">
+                      <h2 class="mdl-card__title-text">Bruce Rauner</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      Republican
+                    </div>
+                    </a>
+                </div>
+
+                <div class="candidate-card democrat mdl-card mdl-shadow--2dp">
+                    <a href="#">
+                    <div class="mdl-card__title mdl-card--expand">
+                      <h2 class="mdl-card__title-text">Jay Pritzker</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      Democrat
+                    </div>
+                    </a>
+                </div>
+
+
+                <div class="candidate-card democrat mdl-card mdl-shadow--2dp">
+                    <a href="#">
+                    <div class="mdl-card__title mdl-card--expand">
+                      <h2 class="mdl-card__title-text">Daniel Biss</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      Democrat
+                    </div>
+                    </a>
+                  </div>
+
+            </div> <!-- ends candidate grid -->
 
 
 
-        </div>
+        </div> <!-- ends page-content -->
       </main>
-    </div>
+    </div> <!-- ends layout -->
 
-    <!-- Optional JavaScript -->
 
   </body>
+
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="candidates.js"></script>
+
+
 </html>
