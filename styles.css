@@ -6,8 +6,13 @@
 .mdl-card__title {
   height: 200px;
   color: white;
+  background: rgb(97, 54, 132);
+  font-family: "Courier New", Courier, monospace;
+}
+.mdl-layout__header{
   background: rgb(14, 58, 130));
  }
+
 
 .mdl-layout__header{
   background: rgb(14, 58, 130);
