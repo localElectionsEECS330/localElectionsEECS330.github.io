@@ -1,5 +1,6 @@
 [
   {
+    "image location": "../images/rauner.jpg",
     "Candidate": "Bruce Rauner",
     "Running Mate": "Evelyn Sanguinetti",
     "Party": "Republican",
@@ -16,6 +17,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/ives.jpg",
     "Candidate": "Jeanne Ives",
     "Running Mate": "Richard Morthland",
     "Party": "Republican",
@@ -32,6 +34,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/biss.jpg",
     "Candidate": "Daniel Biss",
     "Running Mate": "Litesa Wallace",
     "Party": "Democrat",
@@ -48,6 +51,7 @@
     "Campaign Finance": "Supports finance reform"
   },
   {
+    "image location": "../images/daiber.jpg",
     "Candidate": "Bob Daiber",
     "Running Mate": "Jonathan Todd",
     "Party": "Democrat",
@@ -64,6 +68,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/hardiman.jpg",
     "Candidate": "Tio Hardiman",
     "Running Mate": "Patricia Avery",
     "Party": "Democrat",
@@ -80,6 +85,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/kennedy.jpg",
     "Candidate": "Chris Kennedy",
     "Running Mate": "Ra Joy",
     "Party": "Democrat",
@@ -96,6 +102,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/marshall.jpg",
     "Candidate": "Robert Marshall",
     "Running Mate": "Dennis Cole",
     "Party": "Democrat",
@@ -112,6 +119,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/pritzker.jpg",
     "Candidate": "J.B. Pritzker",
     "Running Mate": "Juliana Stretton",
     "Party": "Democrat",
@@ -128,6 +136,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/jackson.jpg",
     "Candidate": "Grayson \"Kash\" Jackson",
     "Running Mate": "David Earl Williams III",
     "Party": "Libertarian",
@@ -144,6 +153,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/scaro.jpg",
     "Candidate": "Matthew Scaro",
     "Running Mate": "David Earl Williams III",
     "Party": "Libertarian",
@@ -160,6 +170,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/stewart.jpg",
     "Candidate": "Jon Stewart",
     "Running Mate": "David Earl Williams III",
     "Party": "Libertarian",
@@ -176,6 +187,7 @@
     "Campaign Finance": ""
   },
   {
+    "image location": "../images/stufflebeam.jpg",
     "Candidate": "Randy Stufflebeam",
     "Running Mate": "",
     "Party": "Constitution",
@@ -192,6 +204,7 @@
     "Campaign Finance": "if you cannot vote for me, you cannot fund me\" no corporations or out of state donors"
   },
   {
+    "image location": "../images/kelly.jpg",
     "Candidate": "William Kelly",
     "Running Mate": "",
     "Party": "Independent - Conservative",
