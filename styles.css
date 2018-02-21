@@ -74,3 +74,14 @@ a:hover{
 .issue{
   display: none;
 }
+
+
+
+
+/* STYLES FOR EVENTS.JS */
+
+#calendar{
+  width: 50%;
+  height: 500px;
+  margin: 30px auto;
+}
