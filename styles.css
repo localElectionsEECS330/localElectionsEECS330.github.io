@@ -1,25 +1,38 @@
+*{
+      font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
 .demo-card-square.mdl-card {
-  width: 35%;
-  height: 25%;
+  width: 220px;
+  height: 220px;
 }
 
 .mdl-card__title {
-  height: 200px;
+  height: 150px;
   color: white;
-  background: rgb(97, 54, 132);
-  font-family: "Courier New", Courier, monospace;
+  background: rgb(80, 55, 85);
 }
-.mdl-layout__header{
-  background: rgb(14, 58, 130);
- }
 
+.mdl-layout-title{
+  color: rgb(80, 55, 85);
+}
+.index-card .mdl-card__title-text {
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px 10px;
+  padding: 5px;
+}
 
 .mdl-layout__header{
-  background: rgb(14, 58, 130);
+  background: white;
 }
 
 .mdl-layout__header-row{
   padding: 0 2%;
+}
+
+
+.mdl-layout__header-row .mdl-navigation__link{
+  color: rgb(80, 55, 85);
 }
 
 .index-cards-grid{
@@ -31,8 +44,7 @@
 
 .index-card{
   display: inline-block;
-  margin: 2% 5%;
-  margin-bottom: 30px;
+  margin: 0% 1%;
 }
 
 a{
@@ -44,6 +56,46 @@ a:hover{
   box-shadow: 2px grey;
 }
 
+.index-image{
+  float: right;
+  display: inline-block;
+  width: 55%;
+}
+
+.index-image img{
+  width: 100%;
+  height: 350px;
+}
+
+#index-candidate{
+  background: url('images/candidates.jpg');
+  background-repeat: no-repeat;
+  background-size: 250px 100%;
+}
+
+h5{
+  margin: 0;
+}
+
+.info-head{
+  margin-top: 15%;
+}
+
+#index-events{
+  background: url('images/events.jpg');
+  background-repeat: no-repeat;
+  background-size: 250px 100%;
+}
+
+.info{
+  display: inline-block;
+  color: white;
+  width: 35%;
+  height: 350px;
+  padding: 0% 5%;
+  background: rgb(80, 55, 85);
+}
+
 
 
 
@@ -52,7 +104,7 @@ a:hover{
 
 .candidate-card{
   margin: 10px 20px;
-  width: 250px;
+  width: 200px;
   height: 400px;
 }
 
@@ -79,9 +131,57 @@ a:hover{
 
 
 /* STYLES FOR EVENTS.JS */
+.addEvents{
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
+}
 
-#calendar{
-  width: 50%;
+.addEvents h3{
+  color: rgb(80, 55, 85);
+  font-weight: 800;
+}
+
+#calendar-col{
+  float: right;
+  display: inline-block;
+  width: 40%;
   height: 500px;
-  margin: 30px auto;
+  margin: 0px 80px;
+}
+
+#calendar-col h3{
+  color: rgb(80, 55, 85);
+  font-weight: 800;
+}
+
+.fc-center h2{
+  font-size: 20px;
+}
+
+.events-info{
+  display: inline-block;
+  color: white;
+  width: 100%;
+  padding: 2% 5%;
+  padding-bottom: 3%;
+  background: rgb(80, 55, 85);
+}
+
+.event{
+  background: rgba(80, 55, 85, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  margin: 20px 0px;
+}
+
+.event-title{
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.event-button{
+  margin-left: 20px;
+  background: rgba(255,255,255,0.8);
 }

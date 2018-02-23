@@ -21,7 +21,7 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <a href="index.html"><span class="mdl-layout-title">LocalVotes</span></a>
+          <a href="index.html"><span class="mdl-layout-title">LocalElect</span></a>
           <!-- Add spacer, to align navigation to the right -->
           <!-- Navigation. We hide it in small screens. -->
           <nav class="mdl-navigation mdl-layout">
@@ -35,24 +35,25 @@
       <main class="mdl-layout__content">
         <div class="page-content">
 
-          <!-- Start page content -->
-          <div id='calendar'></div>
+          <div class="events-info">
+            <h3 class="events-head"> Events </h3>
+            <p> If you find yourself invested in a candidate, one of the best ways to help out is to sign up for events! </p>
+            <h6> Add events that you're interested in to your calendar. </h6>
+          </div>
 
           <div class="addEvents">
-            <h2> Add Events to Calendar </h2>
+            <h3> Available Events </h3>
 
-            <div id="event1">
-              <h3> event 1: 2/17/18 </h3>
-              <button class="add" eventId="0"> add </button>
-            </div>
-
-            <div id="event2">
-              <h3> event 2: 2/27/18 </h3>
-              <button class="add" eventId="1"> add </button>
-            </div>
-
+            <div id="events-placeholder"></div>
 
           </div>
+
+          <div id="calendar-col">
+            <h3> My Calendar </h3>
+            <div id='calendar'>
+            </div>
+          </div>
+
 
 
         </div> <!-- ends page-content -->

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Jeanne Ives Speaking",
+    "start": "2/26/18",
+    "Location": "Aurora",
+    "Description": "Jeanne will be the Keynote Speaker at the Aurora Township Lincoln Day Dinner.",
+    "ID": 0
+  },
+  {
+    "title": "Bob Daiber Politcal Forum",
+    "start": "3/1/18",
+    "Location": "University of Chicago’s Logan Center for Arts, 915 E 60th Street, Chicago",
+    "Description": "WBEZ Chicago, POLITICO Forum",
+    "ID": 1
+  },
+  {
+    "title": "Grayson Jackson Phone Drive",
+    "start": "3/2/18",
+    "Location": "1413 LESLIE DRIVE BLOOMINGTON, IL 61704",
+    "Description": "Phone Bank for Grayson Jackson",
+    "ID": 2
+  },
+  {
+    "title": "Daniel Biss Phone Bank",
+    "start": "2/28/18",
+    "Location": "Evanston Field Office (Evanston, IL)",
+    "Description": "Join a phone bank for Daniel Biss’ campaign for governor of Illinois! We’ll give a short training at the beginning. Please bring a phone.",
+    "ID": 3
+  },
+  {
+    "title": "JB Pritzker Meet and Greet",
+    "start": "6/5/18",
+    "Location": "4756 N Milwaukee Ave, Chicago, Illinois 60630",
+    "Description": "Meet and greet event.",
+    "ID": 4
+  }
+]
