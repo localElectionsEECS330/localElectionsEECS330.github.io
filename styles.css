@@ -2,6 +2,23 @@
       font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+body{
+  background-color: rgb(250,250,250);
+}
+
+.mdl-button--raised.mdl-button--colored{
+  background-color: #C986AF;
+}
+
+.mdl-button--raised.mdl-button--colored:hover, .mdl-button--raised:hover{
+  background-color: rgb(140, 55, 145);
+  color: white;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised{
+  background-color: #C986AF;
+}
+
 .demo-card-square.mdl-card {
   width: 220px;
   height: 220px;
@@ -27,7 +44,7 @@
 }
 
 .mdl-layout__header-row{
-  padding: 0 2%;
+  padding: 0 5%;
 }
 
 
@@ -110,6 +127,20 @@ h5{
 
 .filters{
   margin: 10px 20px 50px 20px;
+  margin-left: 5%;
+}
+
+.filter-subtitle{
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.issue{
+  transition: 2s;
+}
+
+.filter-title{
+  margin-bottom: 5px;
 }
 
 .candidate-card .mdl-card__title-text{
@@ -127,6 +158,9 @@ h5{
   display: none;
 }
 
+.candidate-grid{
+  margin-left: 3.5%;
+}
 
 
 
@@ -162,7 +196,7 @@ h5{
 .events-info{
   display: inline-block;
   color: white;
-  width: 100%;
+  width: 90%;
   padding: 2% 5%;
   padding-bottom: 3%;
   background: rgb(80, 55, 85);
@@ -184,4 +218,35 @@ h5{
 .event-button{
   margin-left: 20px;
   background: rgba(255,255,255,0.8);
+}
+
+
+
+/* REGISTRATION */
+
+.action-button{
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+}
+
+.registration-box h4{
+  font-weight: bold;
+}
+
+.registration-box{
+  padding: 3%;
+  padding-top: 2%;
+  margin-right: 4%;
+  display: inline-block;
+}
+.registration-grid{
+  margin: 3% 5%;
+}
+
+.mdl-card__actions{
+  padding-left: 0;
 }

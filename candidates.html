@@ -25,8 +25,8 @@
           <!-- Navigation. We hide it in small screens. -->
           <nav class="mdl-navigation mdl-layout">
             <a class="mdl-navigation__link" href="candidates.html">Candidates for Governor</a>
-            <a class="mdl-navigation__link" href="#">Registration</a>
-            <a class="mdl-navigation__link" href="#">News</a>
+            <a class="mdl-navigation__link" href="registration.html">Registration</a>
+            <a class="mdl-navigation__link" href="news.html">News</a>
             <a class="mdl-navigation__link" href="events.html">Events</a>
           </nav>
         </div>
@@ -35,11 +35,17 @@
         <div class="page-content">
 
           <!-- Start page content -->
+          <div class="events-info">
+            <h3 class="events-head"> Candidates </h3>
+            <p> With the large number of candidates and positions there are in each race, it's pretty easy to get overwhelmed. However, we believe that picking candidates that best represent you shouldn't be such an arduous process! </p>
+            <h6> Apply one or more of the filters below to help identify candidates that best represent your interests! </h6>
+          </div>
 
             <div class="filters">
 
               <div class="ui-group">
-                <h3>Party</h3>
+                <h3 class="filter-title">Party</h3>
+                <h6 class="filter-subtitle">Select one of the buttons below to filter candidates by party. </h6>
                 <div class="button-group js-radio-button-group" data-filter-group="color">
                   <button class="button mdl-button mdl-js-button mdl-button--raised mdl-button--colored" data-filter="">All Parties</button>
                   <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter=".Republican">Republican</button>
@@ -50,7 +56,8 @@
               </div>
 
               <div class="ui-group2">
-                <h3>Issue</h3>
+                <h3 class="filter-title">Issue</h3>
+                <h6 class="filter-subtitle">Select one of the issues below to display candidates' positions on that issue.</h6>
                 <div class="button-group2 js-radio-button-group" data-filter-group="size">
                   <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter="#employment">Previous Employment</button>
                   <button class="button mdl-button mdl-js-button mdl-button--raised" data-filter="#environment">Environment</button>
