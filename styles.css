@@ -90,6 +90,21 @@ a:hover{
   background-size: 250px 100%;
 }
 
+#index-registration{
+  background: url('images/registration.jpg');
+  background-repeat: no-repeat;
+  background-size: 250px 100%;
+}
+
+#index-news{
+  background: url('images/news.png');
+  background-repeat: no-repeat;
+  background-size: 250px 100%;
+}
+
+
+
+
 h5{
   margin: 0;
 }
