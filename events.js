@@ -24,7 +24,8 @@ $(document).ready(function() {
             `
             <div class="event">
               <p class="event-title"> ${person.title}
-                <span><button class="add button event-button mdl-button mdl-js-button mdl-button--raised" eventId="${person.ID}"> + </button></span>
+                <span><button class="add button event-button mdl-button mdl-js-button mdl-button--raised" eventId="${person.id}"> + </button></span>
+                <span><button class="delete button event-button mdl-button mdl-js-button mdl-button--raised" eventId="${person.id}"> - </button></span>
               </p>
               <p> <b>Date:</b> ${person.start}</p>
               <p> <b>Location:</b> ${person.Location} </p>
@@ -36,55 +37,28 @@ $(document).ready(function() {
 
         document.getElementById('events-placeholder').innerHTML = markup;
 
-
         $('#calendar').fullCalendar({
               header: {
                 left: 'prev,next today',
                 center: 'title',
                 right: 'month,agendaWeek,agendaDay,listMonth'
               },
-              defaultDate: '2018-02-12',
+              defaultDate: '2018-03-15',
               defaultView: 'month',
               editable: true,
               events: [
                 {
-                  title: 'All Day Event',
-                  start: '2014-06-01'
+                  title: 'Voting Day',
+                  start: '2018-03-20'
                 },
                 {
-                  title: 'Long Event',
-                  start: '2014-06-07',
-                  end: '2014-06-10'
-                },
-                {
-                  id: 999,
-                  title: 'Repeating Event',
-                  start: '2014-06-09T16:00:00'
-                },
-                {
-                  id: 999,
-                  title: 'Repeating Event',
-                  start: '2014-06-16T16:00:00'
-                },
-                {
-                  title: 'Meeting',
-                  start: '2014-06-12T10:30:00',
-                  end: '2014-06-12T12:30:00'
-                },
-                {
-                  title: 'Lunch',
-                  start: '2014-06-12T12:00:00'
-                },
-                {
-                  title: 'Birthday Party',
-                  start: '2014-06-13T07:00:00'
-                },
-                {
-                  title: 'Click for Google',
-                  url: 'http://google.com/',
-                  start: '2014-06-28'
+                  title: 'Early Voting',
+                  start: '2018-02-18',
+                  end: '2018-03-20'
                 }
-              ]
+              ],
+              color: 'yellow',
+              eventStartEditable: false
             });
 
             var newEvents = data;
@@ -93,18 +67,28 @@ $(document).ready(function() {
 
             var eventIdArray = [];
 
-            $('.addEvents').on( 'click', 'button', function() {
+            $('.add').on( 'click', function() {
               var id = $( this ).attr('eventId');
               if (!eventIdArray.includes(id)){
                 var eventIndex = Number(id);
                 var eventData = [newEvents[eventIndex]];
-                $('#calendar').fullCalendar('addEventSource',eventData);
+                var eventObject = {'id':id, 'events': eventData};
+                $('#calendar').fullCalendar('addEventSource',eventObject);
                 eventIdArray.push(id);
-                console.log(id);
               }
             });
 
-
+            $('.delete').on( 'click', function() {
+              var id = $( this ).attr('eventId');
+              if (eventIdArray.includes(id)){
+                var eventIndex = Number(id);
+                var eventData = [newEvents[eventIndex]];
+                var eventObject = $('#calendar').fullCalendar('getEventSourceById', id );
+                $('#calendar').fullCalendar('removeEventSource',eventObject);
+                var index = eventIdArray.indexOf(id);
+                eventIdArray.splice(index, 1);
+              }
+            });
 
     });
 

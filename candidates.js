@@ -18,7 +18,7 @@ loadJSON(function(response) {
     const markup = `
       ${data.map(person =>
         `<div class="candidate-card ${person.Party} mdl-card mdl-shadow--2dp">
-            <a href="#">
+            <a href="${person.url}" target="_blank">
             <div class="mdl-card__title mdl-card--expand" style="background-image: url(${person["image location"]})">
               <h2 class="mdl-card__title-text">${person.Candidate}</h2>
             </div>

@@ -14,7 +14,8 @@
     "Education": "Performance based penalties for teachers; Pension reform; School choice supported by vouchers",
     "Term Limits": "Yes",
     "Civil Rights": "Accepts marriage equality as settled; Opposes national anthem protests; Avoids having a social agenda and accepts the status quo",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url":"https://www.brucerauner.com/"
   },
   {
     "image location": "../images/ives.jpg",
@@ -31,7 +32,8 @@
     "Education": "School choice; Pension reform",
     "Term Limits": "Yes",
     "Civil Rights": "Opposed marriage equality; Recent controversial ad denigrates undocumented immigrants and transgender people",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "https://ivesforillinois.com/"
   },
   {
     "image location": "../images/biss.jpg",
@@ -48,7 +50,8 @@
     "Education": "Tuition Free College; Improve access to childcare; Progressive reform; Opposes school vouchers; Change school funding formulas",
     "Term Limits": "Yes",
     "Civil Rights": "supports LGBTQ equality, supports women's rights issues",
-    "Campaign Finance": "Supports finance reform"
+    "Campaign Finance": "Supports finance reform",
+    "url": "https://www.danielbiss.com/"
   },
   {
     "image location": "../images/daiber.jpg",
@@ -65,7 +68,8 @@
     "Education": "Fully fund education; charter and private schools should not receive state funding or receive tax credits for donations; Chicago should have an elected school board",
     "Term Limits": "No",
     "Civil Rights": "Supports LGBTQ equality; Promote racial equity through education, community investment, and criminal justice reform",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "https://www.bobdaiber.com/"
   },
   {
     "image location": "../images/hardiman.jpg",
@@ -82,7 +86,8 @@
     "Education": "Charter and private schools should not receive state funding or receive tax credits for donations; Chicago should have an elected school board",
     "Term Limits": "",
     "Civil Rights": "",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "https://hardimanforillinois.org/"
   },
   {
     "image location": "../images/kennedy.jpg",
@@ -99,7 +104,8 @@
     "Education": "Supports public education from pre-school to college; Supports a wealth-neutral school funding formula",
     "Term Limits": "Yes, if public supports it",
     "Civil Rights": "Supports LGBTQ equality; Opposes gentrification; Promote racial equity through investments in jobs, healthcare, and education; Supports equal pay and paid family leave",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "https://kennedyforillinois.com/"
   },
   {
     "image location": "../images/marshall.jpg",
@@ -116,7 +122,8 @@
     "Education": "Supports tax credits for donations to private schools, charter schools, and competition in education; State should support each student equally",
     "Term Limits": "",
     "Civil Rights": "Dividing Illinois into three states will give African Americans more representation in their new state; supports LGBTQ equality",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "http://www.citizensforrobertmarshall.net/"
   },
   {
     "image location": "../images/pritzker.jpg",
@@ -133,7 +140,8 @@
     "Education": "Promote public education; Increase state investment; Restore vocational training",
     "Term Limits": "Yes",
     "Civil Rights": "Early supporter of LGBTQ equality; Supports women's rights issues; Promote racial equity through investment and criminal justice reform",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "https://www.jbpritzker.com/"
   },
   {
     "image location": "../images/jackson.jpg",
@@ -150,7 +158,8 @@
     "Education": "Supports school Choice and competition",
     "Term Limits": "",
     "Civil Rights": "Doesn't oppose marriage equality; Wants to remove government from the issue",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "https://ballotpedia.org/Grayson_Jackson"
   },
   {
     "image location": "../images/scaro.jpg",
@@ -167,7 +176,8 @@
     "Education": "Opposes common core",
     "Term Limits": "Yes",
     "Civil Rights": "supports LGBT rights",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "https://mcs4il.com/"
   },
   {
     "image location": "../images/stewart.jpg",
@@ -184,7 +194,8 @@
     "Education": "Invest in charter schools",
     "Term Limits": "",
     "Civil Rights": "",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "https://jonstewart2018.com/"
   },
   {
     "image location": "../images/stufflebeam.jpg",
@@ -201,7 +212,8 @@
     "Education": "Reduce state control; Improve competitiveness; Opposes common core",
     "Term Limits": "",
     "Civil Rights": "Homosexuality is a social problem, along with pornography, infidelity, gambling, divorce, drug abuse, teen pregnancy, and AIDS",
-    "Campaign Finance": "\"If you cannot vote for me, you cannot fund me;\" Opposes corporate and out-of-state donors"
+    "Campaign Finance": "\"If you cannot vote for me, you cannot fund me;\" Opposes corporate and out-of-state donors",
+    "url": "http://runrandyrun.com/index.php/en/"
   },
   {
     "image location": "../images/kelly.jpg",
@@ -218,6 +230,7 @@
     "Education": "",
     "Term Limits": "",
     "Civil Rights": "",
-    "Campaign Finance": ""
+    "Campaign Finance": "",
+    "url": "http://www.williamjkelly.org/"
   }
 ]
